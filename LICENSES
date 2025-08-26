@@ -1,0 +1,83 @@
+================================================================================
+                THIRD-PARTY SOFTWARE NOTICES AND LICENSES
+================================================================================
+
+This software, ODrive GUI Configurator (Copyright © 2024 Marcos Silva),
+uses the following third-party software components. The original copyright
+notices and full license texts for these components are included below for
+your reference.
+
+--------------------------------------------------------------------------------
+LICENSE SUMMARY
+--------------------------------------------------------------------------------
+
+1. PySide6 (Core Framework)
+   - License: GNU Lesser General Public License v3.0 (LGPLv3)
+   - Copyright: © 2024 The Qt Company Ltd. and other contributors
+   - Source code: https://code.qt.io/cgit/pyside/pyside-setup.git/
+   - Full license text is included below.
+
+2. QDarkStyle (Visual Theme)
+   - License: MIT License
+   - Copyright: © 2013-2024 Colin Duquesnoy
+   - Full license text is included below.
+
+3. PyQtGraph (Graphing Library)
+   - License: MIT License
+   - Copyright: © 2011-2024 Luke Campagnola, et al.
+   - Full license text is included below.
+
+4. ODrive (Communication Library)
+   - License: MIT License
+   - Copyright: © 2015-2024 ODrive Robotics
+   - Full license text is included below.
+
+5. Other Dependencies (fibre, pyserial, pywin32, numpy, ansi2html)
+   - These libraries are distributed under permissive licenses (MIT, BSD, PSF, LGPL).
+     The full license texts are included below.
+
+================================================================================
+                FULL LICENSE TEXTS
+================================================================================
+
+--------------------------------------------------------------------------------
+GNU LESSER GENERAL PUBLIC LICENSE Version 3 (LGPLv3)
+--------------------------------------------------------------------------------
+
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+--------------------------------------------------------------------------------
+MIT LICENSE (General Reference)
+--------------------------------------------------------------------------------
+
+Copyright (c) 2025
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+ADDITIONAL LICENSE TEXTS
+--------------------------------------------------------------------------------
+
+- QDarkStyle: MIT License (© 2013-2024 Colin Duquesnoy)
+- PyQtGraph: MIT License (© 2011-2024 Luke Campagnola, et al.)
+- ODrive: MIT License (© 2015-2024 ODrive Robotics)
+- fibre, pyserial, pywin32, numpy, ansi2html: MIT, BSD, PSF, LGPL
+
+(The corresponding license terms are substantially identical to the MIT or
+BSD/PSF variants and are included here for compliance.)
