@@ -1,6 +1,6 @@
 # ODrive GUI Configurator
 
-A modern graphical interface for configuring and monitoring ODrive boards, developed in Python and distributed as a compiled `.exe` application.
+A modern graphical interface for configuring and monitoring ODrive boards, developed in Python and distributed as a compiled `.exe` application.  The code is **open-source** and available in this repository for study, modification, and community contributions.
 
 ---
 
@@ -77,9 +77,9 @@ A modern graphical interface for configuring and monitoring ODrive boards, devel
 
 ### 🔄 Firmware Tab
 
-- **Device Info:** Displays firmware version, hardware version, and serial number.  
-- **Update Steps:** Enter DFU mode, check DFU status, and reboot when needed.  
-- **Prerequisites (Windows):** Requires **STM32CubeProgrammer** installed.  
+- **Device Info:** Displays firmware version, hardware version, and serial number.
+-  **Prerequisites (Windows):** Requires **STM32CubeProgrammer** installed.  
+- **Update Steps:** Enter DFU mode and check DFU status.  
 - **Firmware Flashing:** Select a firmware file and flash it to the ODrive. Progress and messages appear in the flashing log.  
 
 <img width="853" height="634" alt="image" src="https://github.com/user-attachments/assets/1aa8e16f-7b17-4828-a486-c9f5c72a19e7" />
@@ -118,7 +118,16 @@ A modern graphical interface for configuring and monitoring ODrive boards, devel
 <img width="852" height="196" alt="{9780564A-CE61-42CB-87F0-CEBBBDB2C4D5}" src="https://github.com/user-attachments/assets/4519d4f4-87ea-4991-afcd-cc3919761d7c" />
 <img width="853" height="633" alt="{6CB82502-6BA4-45F6-8E79-EE02BCB0C62E}" src="https://github.com/user-attachments/assets/ec188fde-c88b-445c-8e7d-f1c4fdc652d5" />
 
----
+
+## 📝 General Guidelines
+
+- This application was tested with **ODrive firmware v0.5.6**.  
+- In each tab, apply the settings and save before moving to the next one.  
+- Do not start calibrations without first saving the applied settings.  
+- When the motor is in **closed-loop control**, ODrive will not allow saving configurations.  
+  - In this case, first set the axis to **IDLE** to save correctly.  
+- Always clear errors before proceeding with new configurations or operations.  
+
 
 ## ⚙️ Technical Overview
 
@@ -157,7 +166,6 @@ python main.py
 👉 The compiled `.exe` version is available on the [**Releases**](https://github.com/marcos6497/odrive-gui-configurator/releases) tab.  
 Just download and run — no installation required.  
 
----
 
 ## 💖 Support / Donate
 
@@ -165,15 +173,12 @@ If this project helped you, consider supporting its development:
 
 - [💵 PayPal](https://www.paypal.com/donate/?business=HTDDRZL6XCVSE&no_recurring=0&currency_code=BRL)  
 
----
 
 ## 🎥 Video Demonstration (pt-BR)
 
 Watch the full demonstration of **ODrive GUI Configurator** on YouTube:
 
 [![ODrive GUI Configurator - Video](https://img.youtube.com/vi/gNRW3H_NcU8/0.jpg)](https://www.youtube.com/watch?v=gNRW3H_NcU8)
-
----
 
 ## 📄 License
 This project uses third-party libraries. See [licenses](LICENSES) for details.
